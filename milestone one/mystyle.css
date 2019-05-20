@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	margin: 0;
+}
+
+.topnav {
+
+  position:fixed;
+  overflow: hidden;
+  background-color: #acea46;
+  border: solid 1px;
+  margin: -8px 0px 0px 0px;
+  width: 98.6%;
+
+}
+.topnav a {
+
+  float: left;
+  color: black;
+  font-family: Arial Black;
+  padding: 1% 9% 0% 1%;
+  text-decoration: none;
+  font-size: 18px;
+}
+.topnav a:hover {
+
+  background-color: #acea46;
+  color: white;
+}
+.topnav a.active {
+  background-color: #4CAF50;
+  color: black;
+}
+.topnav p {
+  font-family: cursive;
+  padding-right: 30px;
+  float: right;
+}
+
+
+.row{
+   overflow: hidden;
+}
+
+.btn {
+  cursor:pointer;
+  border-color:black;
+   font-family: Arial Black;
+
+  overflow: hidden;
+  background-color: #acea46;
+
+
+}
+.btn:hover {
+  color: white;
+}
+
+
+
+.column{
+
+  float: left;
+    width: 50%;
+    position: static;
+   
+}
+
+.footLinks{
+  text-align: center;
+  color: #ACEA46;
+  font-family: Arial Black;
+
+
+}
+
+.footLinksAlt{
+  text-align: center;
+  color: black;
+    font-family: Arial Black;
+
+
+}
+  
+.bg-image{
+  height: 900px;
+  background-image: url("https://caspiannews.com/media/caspian_news/all_original_photos/1528831479_7183783_1528831390_5761793SFF-Foto-2018-001web2.jpg");
+  background-size: cover;
+
+}
+
+.formClass{
+font-family: Arial;
+background-color:rgba(255,255,255,1);
+width:50%;
+text-align: center;
+border: 2px solid #ACEA46;
+border-radius: 10px;
+padding-left: 10px;
+margin: 25% 0% 0% 20%;
+
+}
+
+
+
+
+
+input[type=submit] {
+
+  width: 90%;
+  padding: 14px 20px;
+  margin: 10px 0;
+
+  border-radius: 4px;
+  font-family: "Times New Roman";
+  font-size: 16px;
+  font-weight: bold;
+
+ 
+}
+
+
+input[type=text] {
+  width: 85%;
+  padding: 5px 10px;
+  margin: 10px;
+  border: 1px solid #ACEA46;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+
+h1{
+  text-align: left;
+	color: black;
+	
+}
+
+label{
+    display: inline-block;
+    float: left;
+    font-weight: bold;
+}
+
+
+
+</style>
+</head>
+
+<body>
+

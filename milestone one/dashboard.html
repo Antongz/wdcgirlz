@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>My Account</title>
+	<meta charset="UTF-8"> 
+	<style>
+		body {
+		  margin: 0;
+		  font-family: Arial, Helvetica, sans-serif;
+		}
+	.row{
+   overflow: hidden;
+}
+
+.column{
+
+  float: left;
+    width: 10%;
+    
+   
+}
+
+
+
+		.topnav {
+			top:0;
+		 position:fixed;
+		  overflow: hidden;
+		  background-color: #acea46;
+		  margin:0px 0px 0px -4px;
+  		  width: 100%;
+  		  border:solid 1px black;
+
+		}
+		.topnav a {
+		  float: left;
+		  color: black;
+		  font-family: Arial Black;
+  			padding: 1% 9% 0% 1%;
+		  text-decoration: none;
+		  font-size: 18px;
+		}
+		.topnav a:hover {
+
+		  background-color: #acea46;
+		  color: white;
+		}
+		.topnav p {
+		  font-family: cursive;
+		  padding-right: 30px;
+		  float: right;
+		}
+
+
+		div {
+			background-color:white;
+			overflow:scroll;
+			margin-bottom: 5%;
+		}
+		.bookingsDiv {
+			height: 200px;
+			width: 50%;
+			float: right;
+			margin-right: 0%;
+			text-align: center;
+		}
+		.detailsDiv {
+			overflow: hidden;
+			height:200px;
+			width: 100%;
+			float: left;
+			
+			border: none;
+
+		}
+		.reviewsDiv {
+			height: 500px;
+			width: 80%;
+			clear: both;
+			margin: auto;
+			margin-bottom:7.5%;
+		}
+		.detailsDiv2 {
+			border: none;
+			overflow: hidden;
+			float: left;
+			margin: 0%;
+		
+		
+		}
+		.previewBooking {
+			background-color:white;
+			border: 1px solid black;
+			overflow:scroll;
+			margin:-500px 0px 0px 500px;
+			padding: 100px 0px 100px 0px;
+			width: 58%;
+		}
+
+		.reviewsDiv{
+			background-color:white;
+			border: 1px solid black;
+		
+			margin:50px 0px 0px 100px;
+			padding: 10px 0px 0px 0px;
+			width:90%;
+			height:180px;
+
+		}
+	</style>
+	</head> 
+	<body>
+
+		<div class="topnav">
+	  	<a class="active" href="#home">Home</a>
+	 	 <a href="#news">News</a>
+	  	<a href="#contact">Contact</a>
+	  	<a href="#about">About</a>
+	  	<a href="#dashboard">My Account</a>
+	  	<p><b><i>The Spoon</i></b></p>
+		</div>
+
+		<h1 style="margin-left:10%; margin-top:5%">MY ACCOUNT</h1>
+		<img src="https://cdn2.iconfinder.com/data/icons/people-80/96/Picture1-512.png" style="width:10%; height:20%; float:left; margin-left:10%">
+
+		<div class="row">
+			<div class="column">
+				<div class="detailsDiv">
+				<p>Name</p>
+				<p>Address</p>
+				<p>Phone</p>
+				<p>Email Address</p>
+				</div>
+			</div>
+
+				<div class="column">
+
+			<div class="detailsDiv2">
+			<p>NAME</p>
+			<p>ADDRESS</p>
+			<p>PHONE</p>
+			<p>EMAIL ADDRESS</p>
+			</div>
+			
+			</div>
+			<button style="margin: 200px -200px">Change Details</button>
+		</div>
+
+		<div class="previewBooking"> 
+			<h4 >Previous Bookings</h4>
+		</div>
+
+		<div class="reviewsDiv">
+			<h4 align="center">Previous Reviews</h4>
+		</div>
+	</body>
+</html>
