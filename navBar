@@ -1,18 +1,17 @@
 .topnav {
-
   position:fixed;
   overflow: hidden;
   background-color: #acea46;
   border: solid 1px;
-  margin:-8px 0px 10px -4px;
+  margin: -8px 0px 0px 0px;
+  width: 98.6%
 
 }
 .topnav a {
-
   float: left;
   color: black;
   font-family: Arial Black;
-  padding: 14px 68px 14px 68px;
+  padding: 1% 9% 0% 1%;
   text-decoration: none;
   font-size: 18px;
 }
